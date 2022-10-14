@@ -1,0 +1,25 @@
+Source: node-request-capture-har
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Paolo Greppi <paolo.greppi@libpf.com>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-request-capture-har
+Vcs-Git: https://salsa.debian.org/js-team/node-request-capture-har.git
+Homepage: https://github.com/paulirish/node-request-capture-har
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-request-capture-har
+Architecture: all
+Depends: ${misc:Depends}
+ , nodejs
+Multi-Arch: foreign
+Description: Save all traffic as a HAR file
+ Node.js module that wraps the request module and logs all HTTP traffic
+ as a HAR file (HTTP Archive format: a JSON-formatted archive file
+ format), useful for auto mocking a client during front-end testing.
+ .
+ Node.js is an event-based server-side JavaScript engine.

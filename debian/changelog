@@ -1,0 +1,39 @@
+node-request-capture-har (1.2.2-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Apply multi-arch hints.
+    + node-request-capture-har: Add Multi-Arch: foreign.
+
+  [ lintian-brush ]
+  * Bump debhelper from old 12 to 13.
+
+  [ Yadd ]
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs auto install
+
+ -- Yadd <yadd@debian.org>  Fri, 20 Aug 2021 21:26:35 +0200
+
+node-request-capture-har (1.2.2-1) unstable; urgency=medium
+
+  * New upstream version
+  * Update Vcs fields for migration to https://salsa.debian.org/
+  * Bump standard version
+  * Bump debhelper compat
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Thu, 26 Apr 2018 13:48:29 +0200
+
+node-request-capture-har (1.1.4-1) unstable; urgency=low
+
+  * Initial release (Closes: #846217)
+
+ -- Paolo Greppi <paolo.greppi@libpf.com>  Mon, 12 Dec 2016 09:39:18 +0000
